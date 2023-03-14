@@ -23,15 +23,16 @@ for (let i = 1; i <= 100; i++){
     console.log('BUZZ')}
         
     else {
-       continue
+       
     }
 }
 
-let i = 1;
+let i = 1
 while (i <= 100) {
-  if (i % 2 !== 0) {
-    console.log(i);
-  }
-  i++;
+    if (i % 2 !== 0){
+        console.log(i); 
+    }
+    i++ 
+    
 }
 
