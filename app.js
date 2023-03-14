@@ -92,15 +92,24 @@ do {
 
 
 
+let value = Math.round((Math.random() * 500)); 
+// creates a random number between 0 and 500
+let n = Math.round(Math.random() * (500 - 100) + 100); 
+// creates a random number between 100 and 500
 
+let result;
 
-
-
-
-
-
-
-
+for (let i = 0; i <= n; i++) {
+    if (i === value) {
+        result = 'Found Value!';
+        break;
+    }
+    else {
+        result = 'Did not find value';
+    }
+    
+}
+console.log(result)
 
 
 
